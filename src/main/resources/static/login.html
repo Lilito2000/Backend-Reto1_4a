@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <!-- WHAT IS THE APP ABOUT-->
+        <meta name=description" content="Aplicación para Pedidos Revista por Catalogo">
+        <meta name="keywords" content="App para gestionar Pedidos">
+        <title>Alto Turmequé</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="description" content=""/>
+        <!--IMPROVE MOBILE DEVICES DISPLAY-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <base href="/"/>
+        <!--BOOTSTRAP LIBRARY-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+              rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+              crossorigin="anonymous">
+        <!--JQUERY LIBRARY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- STYLES-->
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
+        <div class="bg-dark text-white p-3 text-center">
+            <h1>Bienvenido al Catálogo Online de Alto Turmequé LDTA</h1>
+        </div>
+        </br>
+        <p class="h3 text-center">Ingresar</p>
+        <div class="container-sm p-3 my-3 bg-secondary text-white"">
+            <div class="mb-3">
+                <label for="userEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="userEmail" >
+            </div>
+            <div class="mb-3">
+                <label for="userPassword" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="userPassword">
+            </div>
+
+            <button type="submit" class="btn btn-info text-white .font-weight-bold" onclick="userValidation('logInForm')">Ingresar</button>
+        </div>
+        <p class="h4 text-center">¿Aún no tienes cuenta?</p>
+        <a href="registro.html"><p class="h5 text-center">Crea tu cuenta aquí</a>
+        <!--JAVASCRIPT SCRIPT-->
+        <script type="text/javascript" src="js/funciones.js"></script>
+    </body>
+</html>
